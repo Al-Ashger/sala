@@ -1,0 +1,24 @@
+
+  
+
+<section class="s-block ">
+<div class="container">
+    <h1> احصائيات  </h1>
+    <div class="row">
+      {% for statistics in component.collection_statistics %}
+     
+         <ul>
+            <div class="col-md-5">
+                <li> <i class="{{ statistics.icon_picker }}"></i> </li>
+            </div>
+                <li> <h2>{{ statistics.units }}</h2></li>
+                
+                {{ statistics.Color }};
+              </ul>
+           
+        {% endfor %}
+       
+    </div>
+</div>
+
+</section>

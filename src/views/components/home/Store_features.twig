@@ -1,0 +1,23 @@
+
+
+    
+<section class="s-block s-block--features container">
+ 
+<div class="container">
+  <h1> مميزات المتجر  </h1>
+  <div class="row">
+    {% for features in component.Collection_features %}
+          
+       <ul>
+        <div class="col-md-5">
+              <li>   <i class="{{ features.aeqont }}"></i></li>
+            </div>
+       <li><h2> {{features.ns  }}</h2></li>
+            </ul>
+          
+      {% endfor %}
+     
+  </div>
+</div>
+</section>
+    

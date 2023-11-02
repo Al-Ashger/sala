@@ -1,0 +1,41 @@
+<section class="s-block ">
+    <div class="container">
+   
+       <h2 class="title">
+        {{ component.offers_id}}
+       </h2>
+     
+       
+       <div class="row">
+       
+        </div>
+
+        <div class="col-6">
+            <h1>  {{component.aard_alns  }}</h1> 
+            <div class="col-6">
+                <salla-products-list
+                source="offers"
+                limit="4"
+                horizontal-cards="true"
+               >
+             
+            <salla-count-down
+            color="primary"
+            boxed={{ component.Switch}}
+            digits="en"
+            size="sm"
+            Date="{{ component.date_time}}">
+            
+          </salla-count-down>
+        </salla-products-list>
+          <a href="" class="btn">تسوق الان &#8594;</a>
+        </div>
+    </div>
+    
+
+</div>
+    </section>
+
+
+
+   

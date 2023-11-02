@@ -1,0 +1,48 @@
+
+{#<section class="s-block s-block--fixed-banner wide-placeholder">
+    <div class="container">
+        <a href="{{ url }}" class="banner banner--fixed overflow-hidden" aria-label="Banner {{ image.alt }}">
+            <img width="100%" class="lazy" src="{{'images/s-empty-wide.png' | asset}}" data-src="{{ image.url }}" alt="{{ image.alt }}"/>
+           
+        </a>
+        
+       
+    </div>
+</section>
+}
+
+<section class="s-block s-block--fixed-banner wide-placeholder">
+    <div class="container1">
+            {% for banner in component.collection %}
+    <div class="banner">
+        <i class="fa fa-facebook"><img  alt="" src="{{banner.image }}"></i>
+        <div class="slider"> {{banner.string }} </div>
+       
+        <div class="bt"> <salla-button>اكشيف المزيد</salla-button></div>
+      </div>
+      
+   
+   </div>
+   
+    {% endfor %}
+
+    
+</section>
+#}
+<section class="s-block ">
+
+{% block body %}
+<div class="container">
+    <h1>{{ page_title }}</h1>
+    <div class="grid">
+        {% for banner in component.collection %}
+        <div class="grid-item">
+                <img src="{{ banner.image }}" alt="{{ item.name }}">
+                <h2>{{ banner.string }}</h2>
+                <p>{{ banner.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+</section>

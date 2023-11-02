@@ -1,0 +1,28 @@
+
+
+
+<section class="s-block ">
+    
+
+    {% for background in component.collection_background %}
+<div class="container1">
+    
+<div class="row">
+    <div class="col-2">
+        <img src="{{  background.image }}" >
+      
+    </div>
+    <div class="col-2">
+        <h1> {{background.titel   }}</h1>
+        
+        <p>  {{background.text_area  }}</brand.id></p> 
+        
+        <div class="review color-{{ loop.index % 3 + 1 }}">
+            {{ background.Color }}
+    <a href="" class="btn">تسوق الان &#8594;</a>
+    </div>
+</div>
+</div>
+{% endfor %}
+
+</section>
