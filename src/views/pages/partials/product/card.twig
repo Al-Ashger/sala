@@ -1,0 +1,26 @@
+{#
+view options:
+ 1- is_horizontal = false  // display horizonal card
+ 2- is_special = false  // display special product with count down
+ 3- hide_add_btn
+
+*Notice: if marchent wants equal image, {{store.settings.product.fit_type}} will be (contain|cover) if not, it will be empty.
+* Deprecated: use salla-product-card
+#}
+
+    {# content #}
+   
+        {% if (is_horizontal or is_deal) and product.quantity %}
+            <div data-quantity="{{ product.quantity }}"
+                 data-total="{{ product.quantity > 100 ? product.quantity * 2 : 100 }}" class="pie-wrapper">
+                <span>
+                    <b id="staProductQty" title="{{ product.quantity|number }}"
+                       data-quantity="{{ product.quantity }}">{{ product.quantity|number }}</b>
+                    {{ trans('pages.products.remained') }}
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1 36 34" class="pie-svg">
+                    <circle cx="16" cy="16" r="15.9155" class="circle_base"></circle>
+                    <circle cx="16" cy="16" r="15.9155" class="circle_bar"></circle>
+                </svg>
+            </div>
+        {% endif %}
