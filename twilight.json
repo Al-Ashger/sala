@@ -1078,8 +1078,8 @@
             "path": "home.categories",
             "fields": [
                 {
-                    "id": "collection",
-                    "key": "771b4e4f-f2ff-4fa2-9e8c-2d9047a6c588",
+                    "id": "categories",
+                    "key": "d1d7148c-cafe-4783-af8e-5ee7e09f8c6a",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -1090,7 +1090,7 @@
                     "fields": [
                         {
                             "id": "image",
-                            "key": "a5069ffb-c442-43a9-b630-968e725a0ac9",
+                            "key": "b61eb7f0-9e78-45f4-89d5-3b8d3aa7821c",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
@@ -1104,7 +1104,7 @@
                         },
                         {
                             "id": "string",
-                            "key": "85c16158-e720-4e43-89cc-e3afd3d83ed2",
+                            "key": "647b874e-a9b2-44a1-8cd1-9bee16e130bb",
                             "type": "string",
                             "format": "text",
                             "label": "String",
@@ -1120,8 +1120,8 @@
                             "defaulted": true
                         },
                         {
-                            "id": "dropdown_list",
-                            "key": "1b2bf31b-8a08-4470-9f94-afb7f418aa16",
+                            "id": "categories.url",
+                            "key": "4084dde5-fb61-42f1-9cbd-2f02b42c728d",
                             "type": "items",
                             "format": "dropdown-list",
                             "label": "Dropdown List",
@@ -1133,15 +1133,13 @@
                             "source": "Categories",
                             "multichoice": true,
                             "searchable": true,
-                            "required": false,
-                            "defaulted": true
+                            "required": false
                         }
                     ],
                     "value": [],
                     "required": false,
                     "minLength": 1,
-                    "maxLength": "6",
-                    "defaulted": true
+                    "maxLength": "6"
                 }
             ]
         },
