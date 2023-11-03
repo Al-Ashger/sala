@@ -1465,6 +1465,13 @@
                     "defaulted": true
                 }
             ]
+        },
+        {
+            "key": "d326400f-89e1-45d9-b827-cda24f384af8",
+            "title": "اراء العملاء",
+            "icon": "sicon-chat-person",
+            "path": "home.testimonial1",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
