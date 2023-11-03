@@ -1377,6 +1377,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "8a6b831b-b296-423b-869a-7ed66fe8756b",
+            "title": "مدونة المتجر",
+            "icon": "sicon-ol",
+            "path": "home.Store_blog",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
