@@ -1471,7 +1471,73 @@
             "title": "اراء العملاء",
             "icon": "sicon-chat-person",
             "path": "home.testimonial1",
-            "fields": []
+            "fields": [
+                {
+                    "id": "testimonial_id",
+                    "key": "42bbcbb7-6dd1-4d9e-a85a-b772e3f153a7",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "aanoan_alreesa",
+                            "key": "cc47d577-3565-42aa-ad6f-329092b51f48",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان الرئيسى",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "ns_todhe",
+                            "key": "d51e27b2-6a00-4b6e-a0fa-d95f9a82a8d8",
+                            "type": "string",
+                            "format": "text",
+                            "label": "نص توضحي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "rabt",
+                            "key": "d39d327e-bdad-4f25-a078-72fc25b397fe",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "رابط",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Customers",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
