@@ -246,27 +246,29 @@
                     "type": "static",
                     "format": "description",
                     "id": "with-bg",
-                    "value": "<div style='padding-top:10px;margin-bottom:30px;border:1px solid #ebebeb;border-radius:5px;text-align:center;overflow:hidden'><h6 style='margin-bottom:10px'>معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1'></div>",
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1'></div>",
                     "conditions": [
                         {
                             "id": "merge_with_top_component",
                             "operation": "=",
                             "value": true
                         }
-                    ]
+                    ],
+                    "key": "efd3a172-874d-4fc1-9a19-92fec5b0b4c7"
                 },
                 {
                     "type": "static",
                     "format": "description",
                     "id": "without-bg",
-                    "value": "<div style='padding-top:10px;margin-bottom:30px;border:1px solid #ebebeb;border-radius:5px;text-align:center;overflow:hidden'><h6 style='margin-bottom:10px'>معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links.png?v=1.1'></div>",
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-links.png?v=1.1'></div>",
                     "conditions": [
                         {
                             "id": "merge_with_top_component",
                             "operation": "=",
                             "value": false
                         }
-                    ]
+                    ],
+                    "key": "510d9c1b-f24b-4951-a37a-d5737a7be76a"
                 },
                 {
                     "type": "string",
@@ -280,7 +282,8 @@
                     "description": null,
                     "placeholder": "أدخل العنوان هنا...",
                     "minLength": 0,
-                    "maxLength": 100
+                    "maxLength": 100,
+                    "key": "854537ac-5532-480d-b102-a64b0bfca5e9"
                 },
                 {
                     "type": "boolean",
@@ -291,24 +294,27 @@
                     "format": "switch",
                     "required": false,
                     "value": false,
-                    "selected": false
+                    "selected": false,
+                    "key": "384980f5-61a0-4f48-9d88-6697e53a1ca1"
                 },
                 {
                     "type": "boolean",
                     "icon": "sicon-toggle-off",
                     "label": "عرض أسهم التحرك",
-                    "description": "",
+                    "description": null,
                     "id": "show_controls",
                     "format": "switch",
                     "required": false,
                     "value": true,
-                    "selected": true
+                    "selected": true,
+                    "key": "29f0c393-1cb6-4c18-8d16-2ac0fc0676de"
                 },
                 {
                     "type": "static",
                     "format": "description",
                     "id": "static-desc",
-                    "value": "<small >* إزاحة كامل العنصر ومحتوياته مع العنصر السابق، وجعلهما يظهران كعنصر واحد متناسق، يكون ذا فائدة في حالة كان العنصر السابق هو (صور متحركة محسنة). </small>"
+                    "value": "<small >* إزاحة كامل العنصر ومحتوياته مع العنصر السابق، وجعلهما يظهران كعنصر واحد متناسق، يكون ذا فائدة في حالة كان العنصر السابق هو (صور متحركة محسنة). </small>",
+                    "key": "d2b80bbf-fd82-4932-a968-d6f2f26f5e32"
                 },
                 {
                     "id": "links",
@@ -317,7 +323,7 @@
                     "required": true,
                     "minLength": 3,
                     "maxLength": 100,
-                    "item_label": "رابط ",
+                    "item_label": "رابط",
                     "value": [
                         {
                             "links.icon": "sicon-store2",
@@ -334,14 +340,17 @@
                     ],
                     "fields": [
                         {
+                            "id": "links.Image",
+                            "key": "e9cc7d4c-6636-4551-85b4-fd57fd8f2dab",
                             "type": "string",
-                            "icon": "sicon-format-text-alt",
-                            "label": "عنوان الرابط",
-                            "id": "links.icon",
-                            "value": "sicon-store2",
-                            "required": true,
-                            "format": "icon",
-                            "description": null
+                            "format": "image",
+                            "label": "صوره معبرة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
                         },
                         {
                             "type": "string",
@@ -354,7 +363,8 @@
                             "description": null,
                             "placeholder": "أدخل عنوان للرابط هنا...",
                             "minLength": 2,
-                            "maxLength": 80
+                            "maxLength": 80,
+                            "key": "f1c4fefb-4dd3-4d6e-afea-13b1338fe9cf"
                         },
                         {
                             "type": "items",
@@ -418,9 +428,11 @@
                                     "key": "custom",
                                     "value": "custom"
                                 }
-                            ]
+                            ],
+                            "key": "45673325-38de-4612-b259-fef4afad681c"
                         }
-                    ]
+                    ],
+                    "key": "a7495d08-79c5-4aea-8d88-b211250e9089"
                 }
             ]
         },
