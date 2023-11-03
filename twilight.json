@@ -1383,7 +1383,88 @@
             "title": "مدونة المتجر",
             "icon": "sicon-ol",
             "path": "home.Store_blog",
-            "fields": []
+            "fields": [
+                {
+                    "id": "collection",
+                    "key": "ca60e83c-b4e3-418a-80d4-be5cdcd15b50",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "titel",
+                            "key": "1e2f73f4-baa2-48e4-93b3-3f01e0f31239",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان الرئسي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "ns_todhe",
+                            "key": "61431271-60fe-48dc-97b2-d90a8681400a",
+                            "type": "string",
+                            "format": "text",
+                            "label": "نص توضحي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "80"
+                        },
+                        {
+                            "id": "image",
+                            "key": "c807e88e-e6b5-40f5-8eed-7b790b143c7b",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false,
+                            "defaulted": true
+                        },
+                        {
+                            "id": "url_blog",
+                            "key": "1afb14d1-2fa9-4136-9202-234a82fcc9b0",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "رابط",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Blog Articles",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": "4",
+                    "defaulted": true
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
