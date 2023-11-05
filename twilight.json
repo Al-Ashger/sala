@@ -1551,6 +1551,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "a25db2c2-2248-47d4-a778-941a86201e13",
+            "title": "معرض اللميزات",
+            "icon": "sicon-checklist",
+            "path": "home.Features_gallery",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
