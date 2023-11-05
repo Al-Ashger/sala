@@ -173,13 +173,15 @@
                     "type": "static",
                     "format": "description",
                     "id": "static-desc",
-                    "value": "<div style='padding-top:10px;margin-bottom:30px;border:1px solid #ebebeb;border-radius:5px;text-align:center;overflow:hidden'><h6 style='margin-bottom:10px'>معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-slider.jpg?v=1.1'></div>"
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-slider.jpg?v=1.1'></div>",
+                    "key": "916730b2-5e95-4767-93b2-5aa4aca7f683"
                 },
                 {
                     "type": "static",
                     "format": "description",
                     "id": "static-note",
-                    "value": "<h4 style='color: #2377CD;font-size: 14px;margin:1rem 0px;background: #E9F0FD;padding: 10px 15px;border-radius: 4px;'>هذا العنصر غير مناسب لعرض البنرات، يمكنك استخدام عنصر <strong>صور متحركة</strong> بدلاً من عنصر <strong>صور متحركة محسنة</strong> لتظهر صورة البنر بشكل كامل</h4>"
+                    "value": "<h4 >هذا العنصر غير مناسب لعرض البنرات، يمكنك استخدام عنصر <strong>صور متحركة</strong> بدلاً من عنصر <strong>صور متحركة محسنة</strong> لتظهر صورة البنر بشكل كامل</h4>",
+                    "key": "1365f310-fe6e-4e23-95d5-1d8f884ade53"
                 },
                 {
                     "id": "slides",
@@ -188,7 +190,7 @@
                     "required": true,
                     "minLength": 1,
                     "maxLength": 10,
-                    "label": "",
+                    "label": null,
                     "item_label": "صورة",
                     "value": [],
                     "fields": [
@@ -200,8 +202,9 @@
                             "label": "صورة البنر",
                             "format": "image",
                             "required": true,
-                            "placeholder": "",
-                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
+                            "placeholder": null,
+                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
+                            "key": "f8204e58-78dc-4a62-8f50-c69c11b1725d"
                         },
                         {
                             "type": "string",
@@ -216,7 +219,8 @@
                             "placeholder": "يمكنك إضافة عنوان بارز هنا...",
                             "hide": false,
                             "minLength": 0,
-                            "maxLength": 100
+                            "maxLength": 100,
+                            "key": "27b1ebc8-5b17-47a6-82f7-8dc360902e65"
                         },
                         {
                             "type": "string",
@@ -230,9 +234,33 @@
                             "required": false,
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
-                            "maxLength": 255
+                            "maxLength": 255,
+                            "key": "0012864d-c3e0-4c94-b046-ca953704752d"
+                        },
+                        {
+                            "id": "checkbox_list",
+                            "key": "87a3ab92-e186-43eb-a08f-2ab5a58f7ba1",
+                            "type": "items",
+                            "format": "checkbox-list",
+                            "label": "Checkbox List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-list-check",
+                            "selected": [],
+                            "options": [
+                                {
+                                    "label": null,
+                                    "value": "Value 1",
+                                    "key": "e5840d19-b157-4e1f-9202-efb796520fbe"
+                                }
+                            ],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "required": false,
+                            "defaulted": true
                         }
-                    ]
+                    ],
+                    "key": "c251da45-271f-4e09-bf93-f30095ad165e"
                 }
             ]
         },
