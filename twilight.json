@@ -630,7 +630,7 @@
                     "format": "description",
                     "id": "with-bg",
                     "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/square-photos.jpg?v=1.1'></div>",
-                    "key": "4554a577-dc42-4e15-af50-572d14cc1361"
+                    "key": "90289aba-8891-4231-a529-bcfd8377ff6f"
                 },
                 {
                     "id": "banners",
@@ -638,7 +638,7 @@
                     "format": "collection",
                     "required": true,
                     "minLength": 1,
-                    "maxLength": "3",
+                    "maxLength": "4",
                     "label": "قائمة الصور",
                     "item_label": "صورة",
                     "value": [],
@@ -657,7 +657,7 @@
                                 "height": 427,
                                 "width": 640
                             },
-                            "key": "d857e358-e5e4-467a-a5e4-bb0f2bf96f4a"
+                            "key": "6142d49c-f3eb-4182-b812-cc26f8334f8d"
                         },
                         {
                             "type": "items",
@@ -722,7 +722,7 @@
                                     "value": "custom"
                                 }
                             ],
-                            "key": "00768a08-31cf-4304-933a-907fcc62fb94"
+                            "key": "bc340a19-977b-412d-a780-a604e1056c86"
                         },
                         {
                             "type": "string",
@@ -738,7 +738,7 @@
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "b31f2840-e2c4-481c-aa09-ca58ef639954"
+                            "key": "2c1ec14b-a1ab-4285-b305-7f1c382bdd13"
                         },
                         {
                             "type": "string",
@@ -753,10 +753,23 @@
                             "placeholder": "Your text here",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "4d38dea8-0ab3-46a5-8dba-a7bef07d905c"
+                            "key": "d1de8848-fe4b-4e22-9a6a-304f3f47c3bb"
+                        },
+                        {
+                            "id": "zr_alaard",
+                            "key": "e974de2e-6fcf-4bcc-bb00-b4bd011f9c92",
+                            "type": "boolean",
+                            "format": "switch",
+                            "label": "زر العرض",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-toggle-off",
+                            "value": true,
+                            "selected": false,
+                            "required": false
                         }
                     ],
-                    "key": "7a4b3749-0b41-4555-8d51-efe9b6de5189"
+                    "key": "c001a22f-3423-458e-bdda-4b836c8fdaf2"
                 }
             ]
         },
