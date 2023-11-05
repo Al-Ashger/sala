@@ -1588,7 +1588,7 @@
             "fields": [
                 {
                     "id": "Features_gallery",
-                    "key": "f47e52c7-93fa-4d85-8804-d880294861d8",
+                    "key": "fe8bb20a-1826-4f33-bc46-b82d056b5e7f",
                     "type": "collection",
                     "format": "collection",
                     "label": "مكونات صور مربععه",
@@ -1599,7 +1599,7 @@
                     "fields": [
                         {
                             "id": "sorh_albnr",
-                            "key": "7d81905b-4c73-4e04-8331-ea291f548913",
+                            "key": "e128e0aa-8303-4f50-9d17-9820d91d5d59",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
@@ -1612,7 +1612,7 @@
                         },
                         {
                             "id": "aanoan_alreese",
-                            "key": "a3d229bc-8e4e-4033-abe4-226339905502",
+                            "key": "34c3b5b3-ebbd-4425-9b0c-78ff199e3f43",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان الرئيسي",
@@ -1628,7 +1628,7 @@
                         },
                         {
                             "id": "ns_todehe",
-                            "key": "8f349c04-73b2-45c5-8c60-fa05095aa129",
+                            "key": "8db4c3d2-9a74-4c24-abf1-c08196a3292a",
                             "type": "string",
                             "format": "textarea",
                             "label": "نص توضيحي",
@@ -1641,6 +1641,49 @@
                             "required": false,
                             "minLength": "15",
                             "maxLength": "150"
+                        },
+                        {
+                            "id": "ns_alzr",
+                            "key": "07627318-96e8-4a57-88db-a274aaddfcf0",
+                            "type": "string",
+                            "format": "text",
+                            "label": "نص الزر",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "aanoan_alrabt",
+                            "key": "e5555368-2907-4cf7-abe7-fe766387caeb",
+                            "type": "items",
+                            "format": "checkbox-list",
+                            "label": "عنوان الرابط",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-list-check",
+                            "selected": [
+                                {
+                                    "label": null,
+                                    "value": "Value 1",
+                                    "key": "4522e214-e05a-4699-9188-e3580bb661b3"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "label": null,
+                                    "value": "Value 1",
+                                    "key": "4522e214-e05a-4699-9188-e3580bb661b3"
+                                }
+                            ],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "required": false
                         }
                     ],
                     "value": [],
