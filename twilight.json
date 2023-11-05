@@ -1585,7 +1585,70 @@
             "title": "معرض اللميزات",
             "icon": "sicon-checklist",
             "path": "home.Features_gallery",
-            "fields": []
+            "fields": [
+                {
+                    "id": "Features_gallery",
+                    "key": "f47e52c7-93fa-4d85-8804-d880294861d8",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "مكونات صور مربععه",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "sorh_albnr",
+                            "key": "7d81905b-4c73-4e04-8331-ea291f548913",
+                            "type": "string",
+                            "format": "image",
+                            "label": "صوره البنر",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": null,
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        },
+                        {
+                            "id": "aanoan_alreese",
+                            "key": "a3d229bc-8e4e-4033-abe4-226339905502",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان الرئيسي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": null,
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "ns_todehe",
+                            "key": "8f349c04-73b2-45c5-8c60-fa05095aa129",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "نص توضيحي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": null,
+                            "icon": "sicon-typography",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "15",
+                            "maxLength": "150"
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": "4"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
