@@ -1588,7 +1588,7 @@
             "fields": [
                 {
                     "id": "Features_gallery",
-                    "key": "fe8bb20a-1826-4f33-bc46-b82d056b5e7f",
+                    "key": "2c14fd76-8633-46b3-b954-b881a922700b",
                     "type": "collection",
                     "format": "collection",
                     "label": "مكونات صور مربععه",
@@ -1599,11 +1599,11 @@
                     "fields": [
                         {
                             "id": "sorh_albnr",
-                            "key": "e128e0aa-8303-4f50-9d17-9820d91d5d59",
+                            "key": "5cefc9bd-8726-4ca7-8cd8-765dc5bbbc14",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
-                            "description": null,
+                            "description": "* المقاس المناسب للصورة هو 09×180 بكسل",
                             "labelHTML": null,
                             "placeholder": null,
                             "icon": "sicon-image",
@@ -1612,7 +1612,7 @@
                         },
                         {
                             "id": "aanoan_alreese",
-                            "key": "34c3b5b3-ebbd-4425-9b0c-78ff199e3f43",
+                            "key": "fc37c807-db4c-476a-937d-21f338ac4b5e",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان الرئيسي",
@@ -1628,7 +1628,7 @@
                         },
                         {
                             "id": "ns_todehe",
-                            "key": "8db4c3d2-9a74-4c24-abf1-c08196a3292a",
+                            "key": "9ee9ed76-9719-4a5f-98e6-bcb7f1954a09",
                             "type": "string",
                             "format": "textarea",
                             "label": "نص توضيحي",
@@ -1644,7 +1644,7 @@
                         },
                         {
                             "id": "ns_alzr",
-                            "key": "07627318-96e8-4a57-88db-a274aaddfcf0",
+                            "key": "0b9a04d4-289e-45bd-bd56-005f1a717976",
                             "type": "string",
                             "format": "text",
                             "label": "نص الزر",
@@ -1660,7 +1660,7 @@
                         },
                         {
                             "id": "aanoan_alrabt",
-                            "key": "e5555368-2907-4cf7-abe7-fe766387caeb",
+                            "key": "6ab7255f-8242-433c-97e9-588a702ade22",
                             "type": "items",
                             "format": "checkbox-list",
                             "label": "عنوان الرابط",
