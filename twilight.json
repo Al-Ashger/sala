@@ -1720,7 +1720,87 @@
             "title": "مدونة المتجر",
             "icon": "sicon-content",
             "path": "home.Storeblog",
-            "fields": []
+            "fields": [
+                {
+                    "id": "site_title",
+                    "key": "cabf963b-0aa6-4ecb-8ea9-fb4ae3dab567",
+                    "type": "string",
+                    "format": "text",
+                    "label": "عنوان الرئسيي",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "ادخل عنوان",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": "4",
+                    "maxLength": 30
+                },
+                {
+                    "id": "collection",
+                    "key": "8adfe6ad-e88f-4daf-84e6-0ea6aa875143",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "bnr",
+                            "key": "223113f7-57de-429e-a011-e763937c802d",
+                            "type": "string",
+                            "format": "image",
+                            "label": "بنر",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        },
+                        {
+                            "id": "title",
+                            "key": "13a4be79-7b41-4629-8d3d-037468f35e84",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان المدونة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "content",
+                            "key": "49edac8d-839b-4856-802a-f63af4eb3ad6",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "نص توضحي",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Your text here",
+                            "icon": "sicon-typography",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 20,
+                            "maxLength": 255
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5,
+                    "defaulted": true
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
