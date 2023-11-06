@@ -1714,6 +1714,13 @@
                     "maxLength": "4"
                 }
             ]
+        },
+        {
+            "key": "3221af6e-c34f-49ca-a139-000e819d2d3a",
+            "title": "مدونة المتجر",
+            "icon": "sicon-content",
+            "path": "home.Storeblog",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
