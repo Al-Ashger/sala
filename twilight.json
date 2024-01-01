@@ -1801,6 +1801,13 @@
                     "defaulted": true
                 }
             ]
+        },
+        {
+            "key": "9601aa5f-ff09-4a85-82ac-861dbdb385ec",
+            "title": "dddddddd",
+            "icon": "sicon-store",
+            "path": "home.ddddddddd",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
