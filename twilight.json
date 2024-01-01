@@ -1808,6 +1808,13 @@
             "icon": "sicon-store",
             "path": "home.ddddddddd",
             "fields": []
+        },
+        {
+            "key": "fb1a69fa-c68b-4a0d-97c3-7c169436c6e5",
+            "title": "aaaaaaaa",
+            "icon": "sicon-store",
+            "path": "home.aaaaaaaaaaaaaa",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
